@@ -1,0 +1,50 @@
+## Interface: 11500
+## Title: Price Answer for Auctionator
+## Notes: Responds to chat messages containing an item with the item's prices
+## Author: Darthy
+## X-Author-Guild: Frenzy
+## X-Author-Faction: Alliance
+## X-Author-Server: Pagle / Wild Growth
+## Version: 1.00
+
+## X-License: Copyright (c) 2023 J.G. All Rights Reserved
+## X-Localizations: enUS, deDE, esMX, esES, frFR, itIT, koKR, ptBR, ruRU, zhCN, zhTW
+## X-Category: Chat & Communication, Auction & Economy
+## X-Credits: Based on prior Price Answer for TSM by Sygon
+
+## X-Date: 2023-11-25T12:39:14Z
+## X-Curse-Project-ID: 661710
+## X-WoWI-ID: 26382
+## X-Wago-ID: lQNlxYNe
+
+## RequiredDeps: Auctionator
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibAboutPanel-2.0
+
+## SavedVariables: PriceAnswerDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\LibAboutPanel-2.0\lib.xml
+
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\frFR.lua
+Locales\itIT.lua
+Locales\koKR.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+
+Core.lua
+Options.lua
